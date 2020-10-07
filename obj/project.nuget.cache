@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "0qkbi3WsZ/4SY6KGMiPJP7PNVkyJaSu9+4EuGEwrXBcB+EkIZACyHO4bdDIgeFCSWJrFuNr4qakcqLDBoq3jJA==",
+  "dgSpecHash": "oqOoLWvYRt2CJlm2qF1fi8pYKKLGYiozLEQoy7C1uHG650uH2/FbVD+Z8T5GnfOEMyzxBKKzKsVHuCIcha6KNg==",
   "success": true,
   "projectFilePath": "/Users/nuno.ribeiro/Wiredkode/WindowsServices.API/WindowsServices.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/nuno.ribeiro/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/nuno.ribeiro/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/nuno.ribeiro/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "/Users/nuno.ribeiro/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/nuno.ribeiro/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
+    "/Users/nuno.ribeiro/.nuget/packages/system.serviceprocess.servicecontroller/4.7.0/system.serviceprocess.servicecontroller.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

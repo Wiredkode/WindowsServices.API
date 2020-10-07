@@ -17,3 +17,6 @@
 /Users/nuno.ribeiro/Wiredkode/WindowsServices.API/obj/Debug/netcoreapp3.1/WindowsServices.API.dll
 /Users/nuno.ribeiro/Wiredkode/WindowsServices.API/obj/Debug/netcoreapp3.1/WindowsServices.API.pdb
 /Users/nuno.ribeiro/Wiredkode/WindowsServices.API/obj/Debug/netcoreapp3.1/WindowsServices.API.genruntimeconfig.cache
+/Users/nuno.ribeiro/Wiredkode/WindowsServices.API/bin/Debug/netcoreapp3.1/System.ServiceProcess.ServiceController.dll
+/Users/nuno.ribeiro/Wiredkode/WindowsServices.API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll
+/Users/nuno.ribeiro/Wiredkode/WindowsServices.API/obj/Debug/netcoreapp3.1/WindowsServices.API.csproj.CopyComplete
