@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "oqOoLWvYRt2CJlm2qF1fi8pYKKLGYiozLEQoy7C1uHG650uH2/FbVD+Z8T5GnfOEMyzxBKKzKsVHuCIcha6KNg==",
+  "dgSpecHash": "5qSX8eKUZVI6J012dAdvlt+d5isa9UEAg08b3NoXmTQyK2JSA6ZoR8Ft8mGLCx3s6i+we8148yMz7AYC9ua5+Q==",
   "success": true,
-  "projectFilePath": "/Users/nuno.ribeiro/Wiredkode/WindowsServices.API/WindowsServices.API.csproj",
+  "projectFilePath": "D:\\Wiredkode\\Projects\\WindowsService.API\\WindowsServices.API\\WindowsServices.API.csproj",
   "expectedPackageFiles": [
-    "/Users/nuno.ribeiro/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "/Users/nuno.ribeiro/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "/Users/nuno.ribeiro/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",
-    "/Users/nuno.ribeiro/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "/Users/nuno.ribeiro/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
-    "/Users/nuno.ribeiro/.nuget/packages/system.serviceprocess.servicecontroller/4.7.0/system.serviceprocess.servicecontroller.4.7.0.nupkg.sha512"
+    "C:\\Users\\nribeiro\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\nribeiro\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\nribeiro\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\nribeiro\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\nribeiro\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\nribeiro\\.nuget\\packages\\system.serviceprocess.servicecontroller\\4.7.0\\system.serviceprocess.servicecontroller.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

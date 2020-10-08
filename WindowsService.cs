@@ -1,4 +1,5 @@
 using System;
+using System.ServiceProcess;
 
 namespace WindowsServices.API
 {
@@ -8,7 +9,7 @@ namespace WindowsServices.API
     public class WindowsService
     {
         public string Name { get; set; }
-        public WindowsServiceStatus Status { get; set; }
+        public ServiceControllerStatus Status { get; set; }
 
     }
 }

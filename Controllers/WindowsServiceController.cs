@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WindowsServices.API;
+using System.ServiceProcess;
+
 
 namespace WindowsServices.API.Controllers
 {
@@ -20,10 +22,24 @@ namespace WindowsServices.API.Controllers
         }
 
         [HttpGet]
-        public WindowsService Get()
+        public WindowsService Get(string serviceName, string username, string password, int operation)
         {
-            var ret=new WindowsServices.API.WindowsService{Name="teste",Status=WindowsServiceStatus.Started};
-            return ret;
+            try
+            {
+                ServiceController[] services = ServiceController.GetServices();
+                ServiceController service = services.First<ServiceController>(x => x.ServiceName == serviceName);
+                service.Stop();
+                //service.Stop();
+
+                var ret = new WindowsServices.API.WindowsService { Name = serviceName, Status = ServiceControllerStatus.Running };
+                return ret;
+            }
+            catch (Exception e)
+            {
+                var ret = new WindowsServices.API.WindowsService { Name = e.Message, Status = ServiceControllerStatus.Running };
+                Console.WriteLine(e.StackTrace);
+                return ret;
+            }
         }
     }
 }
